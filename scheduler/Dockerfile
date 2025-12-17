@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk
+FROM eclipse-temurin:17
 
 COPY target/scheduler.jar scheduler.jar
 
